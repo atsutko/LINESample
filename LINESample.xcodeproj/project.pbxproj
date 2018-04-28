@@ -12,6 +12,17 @@
 		C135FFAD2093909F006A13B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C135FFAB2093909F006A13B1 /* Main.storyboard */; };
 		C135FFAF2093909F006A13B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C135FFAE2093909F006A13B1 /* Assets.xcassets */; };
 		C135FFB22093909F006A13B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C135FFB02093909F006A13B1 /* LaunchScreen.storyboard */; };
+		C135FFBD209391DF006A13B1 /* MyChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135FFBB209391DF006A13B1 /* MyChatTableViewCell.swift */; };
+		C135FFBE209391DF006A13B1 /* MyChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C135FFBC209391DF006A13B1 /* MyChatTableViewCell.xib */; };
+		C135FFC3209392B2006A13B1 /* YourChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135FFC1209392B2006A13B1 /* YourChatTableViewCell.swift */; };
+		C135FFC4209392B2006A13B1 /* YourChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C135FFC2209392B2006A13B1 /* YourChatTableViewCell.xib */; };
+		C135FFC6209396C8006A13B1 /* ChatRoomInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135FFC5209396C8006A13B1 /* ChatRoomInputView.swift */; };
+		C135FFC8209396E1006A13B1 /* ChatRoomInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C135FFC7209396E1006A13B1 /* ChatRoomInputView.xib */; };
+		C135FFCA20939790006A13B1 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135FFC920939790006A13B1 /* Chat.swift */; };
+		C135FFCF2093A1DE006A13B1 /* MyBallonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135FFCE2093A1DE006A13B1 /* MyBallonView.swift */; };
+		C135FFD12093A2B2006A13B1 /* YourBalloonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135FFD02093A2B2006A13B1 /* YourBalloonView.swift */; };
+		C135FFD32093AD91006A13B1 /* user_male_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C135FFD22093AD91006A13B1 /* user_male_icon.png */; };
+		C135FFD52093AE6D006A13B1 /* send_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C135FFD42093AE6D006A13B1 /* send_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		C135FFAE2093909F006A13B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C135FFB12093909F006A13B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C135FFB32093909F006A13B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C135FFBB209391DF006A13B1 /* MyChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatTableViewCell.swift; sourceTree = "<group>"; };
+		C135FFBC209391DF006A13B1 /* MyChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyChatTableViewCell.xib; sourceTree = "<group>"; };
+		C135FFC1209392B2006A13B1 /* YourChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourChatTableViewCell.swift; sourceTree = "<group>"; };
+		C135FFC2209392B2006A13B1 /* YourChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YourChatTableViewCell.xib; sourceTree = "<group>"; };
+		C135FFC5209396C8006A13B1 /* ChatRoomInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomInputView.swift; sourceTree = "<group>"; };
+		C135FFC7209396E1006A13B1 /* ChatRoomInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatRoomInputView.xib; sourceTree = "<group>"; };
+		C135FFC920939790006A13B1 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		C135FFCE2093A1DE006A13B1 /* MyBallonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBallonView.swift; sourceTree = "<group>"; };
+		C135FFD02093A2B2006A13B1 /* YourBalloonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourBalloonView.swift; sourceTree = "<group>"; };
+		C135FFD22093AD91006A13B1 /* user_male_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_male_icon.png; sourceTree = "<group>"; };
+		C135FFD42093AE6D006A13B1 /* send_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +77,40 @@
 			isa = PBXGroup;
 			children = (
 				C135FFA72093909F006A13B1 /* AppDelegate.swift */,
+				C135FFD22093AD91006A13B1 /* user_male_icon.png */,
+				C135FFD42093AE6D006A13B1 /* send_icon.png */,
+				C135FFCB2093979D006A13B1 /* New Group1 */,
+				C135FFC920939790006A13B1 /* Chat.swift */,
 				C135FFA92093909F006A13B1 /* ViewController.swift */,
+				C135FFCE2093A1DE006A13B1 /* MyBallonView.swift */,
+				C135FFD02093A2B2006A13B1 /* YourBalloonView.swift */,
+				C135FFBA20939160006A13B1 /* New Group */,
 				C135FFAB2093909F006A13B1 /* Main.storyboard */,
 				C135FFAE2093909F006A13B1 /* Assets.xcassets */,
 				C135FFB02093909F006A13B1 /* LaunchScreen.storyboard */,
 				C135FFB32093909F006A13B1 /* Info.plist */,
 			);
 			path = LINESample;
+			sourceTree = "<group>";
+		};
+		C135FFBA20939160006A13B1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C135FFBB209391DF006A13B1 /* MyChatTableViewCell.swift */,
+				C135FFBC209391DF006A13B1 /* MyChatTableViewCell.xib */,
+				C135FFC1209392B2006A13B1 /* YourChatTableViewCell.swift */,
+				C135FFC2209392B2006A13B1 /* YourChatTableViewCell.xib */,
+				C135FFC5209396C8006A13B1 /* ChatRoomInputView.swift */,
+				C135FFC7209396E1006A13B1 /* ChatRoomInputView.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C135FFCB2093979D006A13B1 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +172,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C135FFC4209392B2006A13B1 /* YourChatTableViewCell.xib in Resources */,
+				C135FFD32093AD91006A13B1 /* user_male_icon.png in Resources */,
+				C135FFD52093AE6D006A13B1 /* send_icon.png in Resources */,
 				C135FFB22093909F006A13B1 /* LaunchScreen.storyboard in Resources */,
+				C135FFBE209391DF006A13B1 /* MyChatTableViewCell.xib in Resources */,
 				C135FFAF2093909F006A13B1 /* Assets.xcassets in Resources */,
+				C135FFC8209396E1006A13B1 /* ChatRoomInputView.xib in Resources */,
 				C135FFAD2093909F006A13B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C135FFC3209392B2006A13B1 /* YourChatTableViewCell.swift in Sources */,
+				C135FFD12093A2B2006A13B1 /* YourBalloonView.swift in Sources */,
+				C135FFCF2093A1DE006A13B1 /* MyBallonView.swift in Sources */,
+				C135FFCA20939790006A13B1 /* Chat.swift in Sources */,
 				C135FFAA2093909F006A13B1 /* ViewController.swift in Sources */,
+				C135FFBD209391DF006A13B1 /* MyChatTableViewCell.swift in Sources */,
 				C135FFA82093909F006A13B1 /* AppDelegate.swift in Sources */,
+				C135FFC6209396C8006A13B1 /* ChatRoomInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3E76788VZ5;
 				INFOPLIST_FILE = LINESample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TakaoAtsushi.LINESample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3E76788VZ5;
 				INFOPLIST_FILE = LINESample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TakaoAtsushi.LINESample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
