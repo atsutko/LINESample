@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,25 +20,38 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="74.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user_male_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZER-0U-Qmp">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_male_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZER-0U-Qmp">
                         <rect key="frame" x="8" y="8" width="30" height="30"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgc-Uo-ZNQ">
-                        <rect key="frame" x="263" y="49.5" width="30" height="17"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgc-Uo-ZNQ">
+                        <rect key="frame" x="263" y="50" width="30" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qp6-Om-pig">
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qp6-Om-pig">
                         <rect key="frame" x="50" y="5" width="206" height="59"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="206" id="Xwa-5W-4xG"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="Qp6-Om-pig" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="50" id="68f-0G-mpm"/>
+                    <constraint firstItem="ZER-0U-Qmp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="6zm-YE-oGZ"/>
+                    <constraint firstItem="vgc-Uo-ZNQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="39" id="CGN-uS-NMb"/>
+                    <constraint firstItem="Qp6-Om-pig" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="GOT-5W-her"/>
+                    <constraint firstItem="Qp6-Om-pig" firstAttribute="leading" secondItem="ZER-0U-Qmp" secondAttribute="trailing" constant="12" id="TN2-hG-1ut"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="vgc-Uo-ZNQ" secondAttribute="bottom" constant="-3" id="c6f-EW-4lW"/>
+                    <constraint firstItem="vgc-Uo-ZNQ" firstAttribute="leading" secondItem="Qp6-Om-pig" secondAttribute="trailing" constant="7" id="ebY-y1-U2X"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ZER-0U-Qmp" secondAttribute="bottom" constant="26" id="hCe-qx-Rqe"/>
+                    <constraint firstItem="Qp6-Om-pig" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-6" id="k2o-G7-pCf"/>
+                    <constraint firstItem="ZER-0U-Qmp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="q4Z-gB-vCq"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="vgc-Uo-ZNQ" secondAttribute="trailing" constant="11" id="qdJ-HR-bJJ"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>

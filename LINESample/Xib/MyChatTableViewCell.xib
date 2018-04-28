@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,28 +20,40 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="74.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3N-GK-FHC">
-                        <rect key="frame" x="66" y="46.5" width="30" height="17"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3N-GK-FHC">
+                        <rect key="frame" x="66" y="47" width="30" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emU-rd-Yms">
-                        <rect key="frame" x="63" y="27.5" width="33" height="17"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emU-rd-Yms">
+                        <rect key="frame" x="63" y="28" width="33" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GTH-RU-1fc">
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GTH-RU-1fc">
                         <rect key="frame" x="104" y="11" width="200" height="53"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.64313725489999995" green="0.88235294119999996" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="iGE-Ez-G3F"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="GTH-RU-1fc" firstAttribute="bottom" secondItem="e3N-GK-FHC" secondAttribute="bottom" id="9RC-Et-k3D"/>
+                    <constraint firstItem="emU-rd-Yms" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="17" id="NTO-Nv-y3T"/>
+                    <constraint firstItem="e3N-GK-FHC" firstAttribute="top" secondItem="emU-rd-Yms" secondAttribute="bottom" constant="2" id="ScR-ra-Nwx"/>
+                    <constraint firstItem="GTH-RU-1fc" firstAttribute="leading" secondItem="e3N-GK-FHC" secondAttribute="trailing" constant="8" symbolic="YES" id="TBu-qQ-esL"/>
+                    <constraint firstItem="GTH-RU-1fc" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="aAu-BR-Erc"/>
+                    <constraint firstItem="GTH-RU-1fc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="ePc-gI-Okp"/>
+                    <constraint firstItem="emU-rd-Yms" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="equ-j3-OR2"/>
+                    <constraint firstItem="emU-rd-Yms" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="47" id="kUw-hf-Sqp"/>
+                    <constraint firstItem="GTH-RU-1fc" firstAttribute="leading" secondItem="emU-rd-Yms" secondAttribute="trailing" constant="8" symbolic="YES" id="sMI-4P-p4e"/>
+                    <constraint firstItem="GTH-RU-1fc" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="wLu-0D-Oku"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>

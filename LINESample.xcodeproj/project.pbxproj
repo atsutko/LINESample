@@ -79,12 +79,12 @@
 				C135FFA72093909F006A13B1 /* AppDelegate.swift */,
 				C135FFD22093AD91006A13B1 /* user_male_icon.png */,
 				C135FFD42093AE6D006A13B1 /* send_icon.png */,
-				C135FFCB2093979D006A13B1 /* New Group1 */,
+				C135FFCB2093979D006A13B1 /* View */,
 				C135FFC920939790006A13B1 /* Chat.swift */,
 				C135FFA92093909F006A13B1 /* ViewController.swift */,
 				C135FFCE2093A1DE006A13B1 /* MyBallonView.swift */,
 				C135FFD02093A2B2006A13B1 /* YourBalloonView.swift */,
-				C135FFBA20939160006A13B1 /* New Group */,
+				C135FFBA20939160006A13B1 /* Xib */,
 				C135FFAB2093909F006A13B1 /* Main.storyboard */,
 				C135FFAE2093909F006A13B1 /* Assets.xcassets */,
 				C135FFB02093909F006A13B1 /* LaunchScreen.storyboard */,
@@ -93,7 +93,7 @@
 			path = LINESample;
 			sourceTree = "<group>";
 		};
-		C135FFBA20939160006A13B1 /* New Group */ = {
+		C135FFBA20939160006A13B1 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
 				C135FFBB209391DF006A13B1 /* MyChatTableViewCell.swift */,
@@ -103,14 +103,14 @@
 				C135FFC5209396C8006A13B1 /* ChatRoomInputView.swift */,
 				C135FFC7209396E1006A13B1 /* ChatRoomInputView.xib */,
 			);
-			path = "New Group";
+			path = Xib;
 			sourceTree = "<group>";
 		};
-		C135FFCB2093979D006A13B1 /* New Group1 */ = {
+		C135FFCB2093979D006A13B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group1";
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
